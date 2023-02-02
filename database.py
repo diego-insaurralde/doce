@@ -88,8 +88,8 @@ if __name__ == '__main__':
     banco = Database()
     banco.conectar()
     #banco.criar_tabela('embalagens')
-    banco.deletar('ingredientes', 20)
-    #banco.atualizar('ingredientes', 17, 'unidade', 129)
+    banco.deletar('ingredientes', 34)
+    #banco.atualizar('ingredientes', 24, 'valor', 23.50)
         
     #banco.criar_tabela('subreceitas')
     banco.fechar()

@@ -78,7 +78,7 @@ class Copo:
         
         else:
             return quantidade, valor
-        input("APERTE QUALQUER TECLA PARA CONTINUAR")
+        input("\nAPERTE QUALQUER TECLA PARA CONTINUAR\n")
         
     def tela_cadastrar_copo(self):
         
@@ -124,7 +124,7 @@ class Copo:
         valor += preco_final * tx_ifood 
         print(f"VALOR COPO: {valor}")
         
-        input("APERTE QUALQUER TECLA PARA CONTINUAR")
+        input("\nAPERTE QUALQUER TECLA PARA CONTINUAR\n")
     
     def mostrar_subreceitas(self):
         for subreceita in sorted(self.subreceitas, key= lambda x: x.nome):
